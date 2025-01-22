@@ -1,0 +1,71 @@
+💪🏽 Ejercicios
+
+1. Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+Inicio:
+
+RESPUESTA:
+
+Paso 1:
+Conectar la computadora a la corriente
+Paso 2:
+Encender la computadora tocando el botón de inicio que se encuentra en la parte superior izquierda
+Paso 3:
+Esperar a que cargue la pantalla de inicio
+Paso 4:
+Hacer click con el mouse en mi usuario he ingresar  con mi clave y usuario
+Paso 5:
+Hacer click con el mouse en el buscardor de Google Chrome que esta en la barra inferior donde se ubican las aplicaciones de la computadora
+Paso 6:
+Hacer click en la barra buscadora de google
+Paso 7:
+Escribir con el teclado "[www.youtube.com](http://www.youtube.com/)"
+Paso 8:
+Precionar "Enter" en el teclado para ingresar a la pagina
+FIN.
+
+2. Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones múltiples y ciclos.
+
+RESPUESTA:
+
+INICIO
+1. Despertar a las 5:50 am
+2. Encender la computadora del trabajo
+        a. Si mi usuario no esta abierto ingresar con la clave
+3. A las 6 ponerme en available
+4. Loguearme en Chime y Sprinklr
+5. Revisar correos de la noche anterior
+6. Sacar el spam de Scraping
+7. Atender chats
+8. Mientras la hora no sea igual a 8: 00 am o 10:00 am o 1:00 pm o 3:00 pm
+
+      a. Repetir el paso 6 y 7
+
+9. Si la hora es igual a 8:00 am o 1:00 pm
+
+       b. Salir a break por 15 minutos
+10.Si la hora es igual a 10 am
+      b. Salir a lunch por 1 hora
+
+11. Si la hora es igual a 3:00 pm
+      c. Marcar salida en AC3
+
+13. Alistarme para ir al gym
+         a. Si el clima es igual a lluvioso
+
+                i. Usar el carro
+
+          a. Si el clima es igual a soleado
+                j. Ir caminando
+
+  
+14. Entrenar en el gym de 3:15pm a 4:15 pm
+15. Al terminar de entrenar ir a tomar café con mi mamá de 4:20 pm a 5:30 pm
+        a. Si no hay nada urgente descansar hasta las 6 pm
+        b. Si hay algo urgente completar la tarea
+16. Cenar de 6 pm a 7 pm
+17. Estudiar progra de 7 pm a 10 pm.
+18. Preparme para dormir
+19. Tiempo libre de 10 pm a 11 pm.
+20. Dormir hasta las 5:50 pm
+          a. Repetir del paso 2 hasta el paso 20 de martes a sábados
+FIN
