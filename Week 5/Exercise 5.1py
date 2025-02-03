@@ -1,0 +1,73 @@
+#💪🏽 **Ejercicios**
+
+#**Para estos ejercicios debe utilizar solo lo visto en clase. No es valido utilizar funciones como `zip` o `reversed`.**
+
+#1. Cree un programa que itere e imprima los valores de dos listas del mismo tamaño al mismo tiempo.
+
+#RESPUESTA
+
+first_list = ["Hay", "en", "que", "iteracion", "indices", "muy"]
+second_list = ["casos", "los", "la", "por", "es", "util"]
+
+#primer forma en que se me ocurrio como hacerlo sin pensarlo mucho
+print(f"{first_list[0]} {second_list[0]} {first_list[1]} {second_list[1]} {first_list[2]} {second_list[2]} {first_list[3]} {second_list[3]} {first_list[4]} {second_list[4]} {first_list[5]} {second_list[5]}")
+
+#segunda manera aplicando las clases
+for i in range(len(first_list)):  
+    print(f"{first_list[i]} {second_list[i]}")
+
+#2. Cree un programa que itere e imprima un string letra por letra de derecha a izquierda.
+
+#RESPUESTA
+
+my_string ="Perros"
+
+for i in range(len(my_string)-1,-1,-1): #Esto de -1-1-1 y como aplicarlo lo busque es internet
+    print(my_string[i])
+
+#3. Cree un programa que intercambie el primer y ultimo elemento de una lista. Debe funcionar con listas de cualquier tamaño.
+#    1. Ejemplos:
+#    2. `my_list = [4, 3, 6, 1, 7]` → `[7, 3, 6, 1, 4]`
+
+#RESPUESTA
+
+#Misma logida de un ejercicio anterior en diagramas de flujo solo que ahora con listas y sus indices
+lista1= [1,2,3,4]
+
+variable_temporal=lista1[0] #Aveces leo y me distraigo pero ya lo arregle con solo 1 lista
+lista1[0] =lista1[-1]
+lista1[-1] =variable_temporal
+
+print("Primer y segundo numero intercambiados:", lista1)
+
+#4. Cree un programa que elimine todos los números impares de una lista.
+#    1. Ejemplos:
+#    2. `my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]` → `[2, 4, 6, 8]`
+
+#RESPUESTA
+
+lista=[1,2,3,4,5,6,7,8]
+lista_impares=[]
+
+for i in range(len(lista) - 1, -1, -1):
+    if lista[i] % 2 != 0:
+        lista_impares.append(lista.pop(i))
+
+print(f"Lista sin los impares: {lista} y listas con solo los impares: {lista_impares}")
+
+#5. Cree un programa que le pida al usuario 10 números, y al final le muestre todos los números que ingresó, seguido del numero ingresado más alto.
+#    1. Ejemplos:
+#    2. 86, 54, 23, 54, 67, 21, 2, 65, 10, 32 → [54, 86, 23, 54, 67, 21, 2, 65, 10, 32]. El más alto fue 86.
+
+#RESPUESTA
+
+contador=1
+numeros_usuario=[]
+
+while contador < 11:
+    numero=int(input("Ingresa 1 numero: "))
+    numeros_usuario.append(numero) 
+    contador += 1
+
+numero_alto=max(numeros_usuario)
+print(f"Numoeros ingresados= {numeros_usuario} y el numero mas alto es: {numero_alto}")

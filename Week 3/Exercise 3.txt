@@ -1,0 +1,43 @@
+[Diagrama de flujo tarea 3.drawio](https://prod-files-secure.s3.us-west-2.amazonaws.com/8050d946-e5e0-483a-8075-8c26331adf05/0d3ba97d-f102-4802-a4d9-836fb787b57c/Diagrama_de_flujo_tarea_3.drawio)
+
+Adjunto archivo de [draw.io](http://draw.io) con los cambios, aun el ejercicio #2 me enreda un poco con el bucle y como mostrarlo en el flujo, quedo atento, gracias!!!
+
+[Diagrama de flujo tarea 3.drawio](https://prod-files-secure.s3.us-west-2.amazonaws.com/8050d946-e5e0-483a-8075-8c26331adf05/2a8678af-c10f-410b-9104-7a2d541822d4/Diagrama_de_flujo_tarea_3.drawio)
+
+Hola, buenas tardes. Adjunto un archivo en donde hice la tarea #3 del control de flujo usando la pagina [draw.io](http://draw.io), además de hacer los diagramas de flujo hice los códigos de 6 de los ejercicios de la misma practica.
+
+Ejercicios de introducción a Python:
+
+```jsx
+#💪🏽 **Ejercicios**
+
+#1. Use la función `print()` para mostrar distintos textos en pantalla.
+
+#RESPUESTA
+hola= "hola soy Lee."
+money= "Estoy estudiando para ganar mas dinero y "
+travel= "quiero viajar"
+
+print(hola)
+print(money)
+print(travel)
+
+#2. Use la función `print()` para mostrar resultados de operaciones matemáticas básicas.
+#    1. Por ejemplo:
+#        1. 1 + 1 → 2
+#        2. 90 + 430 → 520
+#        3. 4 * 5 → 20
+
+#RESPUESTA
+
+suma= (1+1)
+suma2= (90+430)
+multiplicacion= (4*5)
+
+print(f"La primer suma da como resultado: {suma}, la segunda suma da como resultado: {suma2} y la multiplicacion da como resultado: {multiplicacion}")
+
+```
+
+Adjunto imagen del diagrama #2 , lo simplifique un poco mas ya que siento que yo lo estaba complicando innecesariamente.  Quedo atento, gracias!!!
+
+![Captura de pantalla 2024-12-25 132331.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8050d946-e5e0-483a-8075-8c26331adf05/fa004b0f-de24-4203-91ad-b00df4211ee2/Captura_de_pantalla_2024-12-25_132331.png)
